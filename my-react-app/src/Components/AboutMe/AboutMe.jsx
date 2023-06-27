@@ -1,7 +1,7 @@
 import styles from './aboutMe.module.css'
 import image from '../../media/InagenParaHenryCard.jpg.jpeg'
 // import {FaReact, FaRedux, FiDatabase, DiGit, FaGitHub, FaJs, FaJava, FaNodeJs} from 'react-icons/fa'
-import { SiCss3, SiCssmodules, SiExpress, SiFacebook, SiGit, SiGithub, SiHtml5, SiJavascript, SiMongodb, SiNodedotjs, SiPostgresql, SiReact, SiRedux, SiSequelize } from 'react-icons/si'
+import { SiCss3, SiExpress, SiGit, SiGithub, SiHtml5, SiJavascript, SiMongodb, SiNodedotjs, SiPostgresql, SiReact, SiRedux, SiSequelize } from 'react-icons/si'
 
 export default function AboutMe () {
     return (
@@ -26,10 +26,10 @@ export default function AboutMe () {
             </div>
             <div className={styles.conteinerP}>
                 <p className={styles.p}>Hi, my name is Lautaro Heredia. 🫡</p>
-                <p className={styles.p}>I'am studing Engeneer of Computation. 📒</p>
-                <p className={styles.p}>I'am graduated in Henry with Full Stack Developer.</p>
-                <p className={styles.p}>I'am living in Argentina and I have 20 years old.</p>
-                <p className={styles.p}>I'am oriented in the Back-End, but I don't have a problem with Full Stack</p>
+                <p className={styles.p}>I&apos;am studing Engeneer of Computation. 📒</p>
+                <p className={styles.p}>I&apos;am graduated in Henry with Full Stack Developer.</p>
+                <p className={styles.p}>I&apos;am living in Argentina and I have 20 years old.</p>
+                <p className={styles.p}>I&apos;am oriented in the Back-End, but I don&apos;t have a problem with Full Stack</p>
                 <p className={styles.p}>My love in this life is programming and design web apps. 💻</p>
                 <p className={styles.p}>My hobbies in the days is programming in times off, and play Volleyball 2hs sometimes.</p>
             </div>

@@ -1,7 +1,7 @@
 import styles from './projects.module.css'
 import image1 from '../../media/Captura de pantalla 2023-06-01 204655.png'
 import image2 from '../../media/Captura de pantalla 2023-06-01 204529.png'
-import React, {useState} from 'react'
+import {useState} from 'react'
 import { CSSTransition } from 'react-transition-group';
 
 export default function Projects () {
