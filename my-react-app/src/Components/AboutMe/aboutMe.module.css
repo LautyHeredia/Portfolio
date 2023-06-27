@@ -1,0 +1,257 @@
+.conteinerAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 99%;
+    min-height: 88vh;
+    padding: 10px;
+}
+
+.conteinerRow {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    max-width: 92%;
+    min-height: 87vh;
+    border: 2px solid rgb(0, 255, 255);
+    border-radius: 40%;
+    background-color: rgb(185, 244, 248);
+    box-shadow: 0px 3px 24px 0px rgba(0, 238, 255, 0.75);
+    animation: backgr 3s infinite;
+}
+
+.conteinerImage{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+    width: 300px;
+    margin: 2px;
+    padding: 5px;
+    height: 300px;
+    gap: 3px;
+}
+
+.conteinerIcons {
+    position: relative;
+}
+
+/* .icons {
+    position: relative;
+} */
+
+.icon1 {
+    position: absolute;
+    top: 82px;
+    font-size: 40px;
+    animation: icon1A 5s infinite linear;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+
+.icon2 {
+     position: absolute;
+     top: 160px;
+     right: 7px;
+     font-size: 10px;
+     width: 50px;
+     height: 50px;
+     z-index: 1;
+     animation: icon1A 5s infinite linear;
+}
+
+.icon3 {
+     position: absolute;
+     top: 90px;
+     right: 15px;
+     font-size: 8px;
+     width: 50px;
+     height: 50px;
+     z-index: 1;
+     color: aliceblue;
+     animation: icon1A 5s infinite linear;
+}
+
+.icon4 {
+     position: absolute;
+     top: 220px;
+     right: 20px;
+     font-size: 10px;
+     width: 50px;
+     height: 50px;
+     z-index: 1;
+     color: aliceblue;
+     animation: icon1A 5s infinite linear;
+}
+
+.icon5 {
+    position: absolute;
+     top: 270px;
+     right: 55px;
+     font-size: 10px;
+     width: 50px;
+     height: 50px;
+     z-index: 1;
+     animation: icon1A 5s infinite linear;
+}
+
+.icon6 {
+    position: absolute;
+     top: 300px;
+     right: 105px;
+     font-size: 10px;
+     width: 50px;
+     height: 50px;
+     z-index: 1;
+     color: aliceblue;
+     animation: icon1A 5s infinite linear;
+}
+
+.icon7 {
+    position: absolute;
+     top: 300px;
+     right: 170px;
+     font-size: 10px;
+     width: 50px;
+     height: 50px;
+     z-index: 1;
+     animation: icon1A 5s infinite linear;
+}
+
+.icon8 {
+    position: absolute;
+     top: 260px;
+     right: 215px;
+     font-size: 10px;
+     width: 50px;
+     height: 50px;
+     z-index: 1;
+     color: aliceblue;
+     animation: icon1A 5s infinite linear;
+}
+
+.icon9 {
+    position: absolute;
+     top: 210px;
+     right: 250px;
+     font-size: 10px;
+     width: 50px;
+     height: 50px;
+     z-index: 1;
+     animation: icon1A 5s infinite linear;
+}
+
+.icon10 {
+    position: absolute;
+     top: 148px;
+     right: 250px;
+     font-size: 10px;
+     width: 50px;
+     height: 50px;
+     z-index: 1;
+     color: aliceblue;
+     animation: icon1A 5s infinite linear;
+}
+
+.icon11 {
+    position: absolute;
+     top: 35px;
+     right: 215px;
+     font-size: 10px;
+     width: 50px;
+     height: 50px;
+     z-index: 1;
+     color: aliceblue;
+     animation: icon1A 5s infinite linear;
+}
+
+.icon12 {
+    position: absolute;
+     top: 37px;
+     right: 50px;
+     font-size: 10px;
+     width: 50px;
+     height: 50px;
+     z-index: 1;
+     animation: icon1A 5s infinite linear;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 1;
+    box-shadow: 6px 3px 24px 10px rgb(0, 0, 0);
+}
+
+.conteinerP {
+    position: relative;
+    max-width: 50%;
+    min-height: 20vh;
+    margin-right: 100px;
+    gap: 3px;
+    padding: 5px;
+    margin: 2px;
+    animation: animationConteiner 5s infinite;
+}
+
+.conteinerP:hover {
+    gap: 2px;
+}
+
+.p {
+    text-align: center;
+    color: rgb(29, 29, 29);
+    font-size: 23px;
+    font-weight: 700;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.p:hover {
+    color: rgba(254, 212, 4, 0.854);
+    border-radius: 30%;
+    border: 1px solid red;
+    background-color: rgb(13, 23, 23);
+    padding: 4px;
+}
+
+@keyframes backgr {
+    0%{
+        background-color: rgb(30, 144, 136);
+    }
+    50% {
+        background-color: rgb(37, 143, 133);
+    }
+    100%{
+        background-color: rgb(30, 136, 136);
+    }
+}
+
+@keyframes animationConteiner {
+    0%{
+        right: 20px;
+    }       
+    50%{
+        right: 5px;
+    }
+    100%{
+        right: 20px;
+    }
+}
+
+@keyframes icon1A {
+    0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

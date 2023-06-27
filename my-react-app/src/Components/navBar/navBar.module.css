@@ -1,0 +1,57 @@
+.divConteiner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    gap: 10px;
+    padding: 10px;
+    background-color: black;
+    max-width: 100%;
+}
+
+.link1 {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link1:hover{
+    color: aqua;
+}
+
+.link2 {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link2:hover{
+    color: aqua;
+}
+
+.link3 {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link3:hover{
+    color: aqua;
+}
+
+.link4 {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link4:hover{
+    color: aqua;
+}

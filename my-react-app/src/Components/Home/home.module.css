@@ -1,0 +1,108 @@
+.divConteiner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+    margin: 3px;
+    gap: 7px;
+    max-width: 98%;
+    min-height: 83vh;
+}
+
+.p {
+    position: absolute;
+    text-align: center;
+    font-weight: 600;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    animation: moveTitle 2s infinite alternate;
+}
+
+.p:hover {
+    color: aqua;
+}
+
+.h21 {
+    position: absolute;
+    text-align: center;
+    font-weight: 600;
+    top: 120px;
+    font-size: 18px;
+    color: rgb(181, 177, 177);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.h22 {
+    position: absolute;
+    top: 330px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(181, 177, 177);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cvDownload {
+    position: absolute;
+    top: 400px;
+    right: 700px;
+    background-color:aqua;
+    padding: 5px;
+    border-radius: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+.cvDownload:hover {
+    background-color: rgb(0, 255, 60);
+}
+
+.conteinerImg {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 1px solid black;
+}
+
+.img {
+    height: 60%;
+    position: absolute;
+    top: 125px;
+    right: 20px;
+    border-radius: 50%;
+    z-index: 1;
+    border: 2px solid white;
+    border-color: rgb(1, 250, 250);
+    animation: moveImage 2s infinite alternate;
+}
+
+.img:hover {
+    border-color: yellow;
+}
+
+@keyframes moveImage {
+    0% {
+        top: 100px;
+    }
+
+    100% {
+        top: 110px;
+    }
+}
+
+@keyframes moveTitle {
+    0% {
+        top: 200px;
+        right: 350px;
+    }
+
+    100% {
+        top: 200px;
+        right: 360px;
+    }
+}
