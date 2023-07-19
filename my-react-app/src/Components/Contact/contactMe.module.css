@@ -13,41 +13,41 @@
 
 .icon {
     position: absolute;
-    left: 300px;
-    top: 190px;
+    left: 27.4%;
+    top: 38.5%;
     font-size: 50px;
     animation: iconsAnimation1 2.4s ease-in-out;
 }
 
 .icon1{
     position: absolute;
-    left: 210px;
-    top: 240px;
+    left: 20%;
+    top: 48.7%;
     font-size: 50px;
     animation: iconsAnimation2 1.4s ease-in-out;
 }
 
 .icon2{
     position: absolute;
-    left: 685px;
-    top: 370px;
+    left: 65.4%;
+    top: 74.9%;
     font-size: 50px;
     animation: iconsAnimation3 2.6s ease-in-out;
 }
 
 .icon3{
     position: absolute;
-    left: 770px;
-    top: 320px;
+    top: 55.7%;
+    left: 70.5%;
     font-size: 50px;
-    animation: iconsAnimation4 1.8s ease-in-out;
+    animation: iconsAnimation4 2.4s ease-in-out;
 
 }
 
 .icon4{
     position: absolute;
-    left: 680px;
-    top: 180px;
+    top: 36.6%;
+    left: 64.8%;
     font-size: 50px;
     animation: iconsAnimation5 2.8s ease-in-out;
 }
@@ -125,77 +125,77 @@
 
 @keyframes iconsAnimation1 {
     0% {
-        top: 190px;
-        left: 350px;
+        top: 30%;
+        left: 39%;
         z-index: -1;
     }    
     100%{
-        top: 190px;
-        left: 300px;
+        top: 38.5%;
+        left: 27.5%;
     }
 }
 
 @keyframes iconsAnimation2 {
     0% {
-        top: 230px;
-        left: 320px;
+        top: 37%;
+        left: 40%;
         z-index: -1;
     }    
     50% {
-        top: 230px;
-        left: 280px;
+        top: 40%;
+        left: 30%;
     }
     100%{
-        top: 240px;
-        left: 210px;
+        top: 48%;
+        left: 20.7%;
     }
 }
 
 @keyframes iconsAnimation3 {
     0% {
-        top: 290px;
-        left: 673px;
+        top: 64%;
+        left: 70%;
         z-index: -1;
     }    
     50% {
-        top: 300px;
-        left: 675px;
+        top: 65%;
+        left: 67%;
     }
     100%{
-        top: 370px;
-        left: 685px;
+        top: 74.9%;
+        left: 65.5%;
     }
 }
 
 @keyframes iconsAnimation4 {
     0% {
-        top: 200px;
-        left: 700px;
+        top: 47%;
+        left: 63.3%;
         z-index: -1;
     }    
     50% {
-        top: 250px;
-        left: 725px;
+        top: 52.8%;
+        left: 68.4%;
     }
     100%{
-        top: 320px;
-        left: 770px;
+        top: 55.7%;
+        left: 70.5%;
     }
 }
 
 @keyframes iconsAnimation5 {
     0% {
-        top: 160px;
-        left: 630px;
+        top: 30%;
+        left: 58%;
         z-index: -1;
     }    
     50% {
-        top: 170px;
-        left: 650px;
+        top: 33%;
+        left: 62%;
     }
     100%{
-        top: 180px;
-        left: 680px;
+        top: 36.6%;
+        left: 64.8%;
     }
 }
 

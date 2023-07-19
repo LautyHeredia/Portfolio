@@ -5,7 +5,7 @@
     align-items: start;
     padding: 10px;
     margin: 3px;
-    gap: 7px;
+    gap: 5px;
     max-width: 98%;
     min-height: 83vh;
 }
@@ -16,7 +16,7 @@
     font-weight: 600;
     color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 45px;
+    font-size: 40px;
     animation: moveTitle 2s infinite alternate;
 }
 
@@ -28,7 +28,8 @@
     position: absolute;
     text-align: center;
     font-weight: 600;
-    top: 120px;
+    top: 25%;
+    right: 50%;
     font-size: 18px;
     color: rgb(181, 177, 177);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -36,7 +37,8 @@
 
 .h22 {
     position: absolute;
-    top: 330px;
+    top: 70%;
+    right: 53%;
     text-align: center;
     font-weight: 600;
     font-size: 18px;
@@ -46,10 +48,11 @@
 
 .cvDownload {
     position: absolute;
-    top: 400px;
-    right: 700px;
+    top: 85%;
+    right: 68%;
     background-color:aqua;
     padding: 5px;
+    margin: 1px;
     border-radius: 30%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
@@ -72,8 +75,8 @@
 .img {
     height: 60%;
     position: absolute;
-    top: 125px;
-    right: 20px;
+    top: 20%;
+    right: 5%;
     border-radius: 50%;
     z-index: 1;
     border: 2px solid white;
@@ -87,22 +90,28 @@
 
 @keyframes moveImage {
     0% {
-        top: 100px;
+        top: 20%;
     }
 
     100% {
-        top: 110px;
+        top: 25%;
     }
 }
 
 @keyframes moveTitle {
     0% {
-        top: 200px;
-        right: 350px;
+        top: 43%;
+        right: 43%;
     }
 
     100% {
-        top: 200px;
-        right: 360px;
+        top: 43%;
+        right: 36%;
     }
 }
+
+/* @media (max-widht: 1300px) {
+    divConteiner {
+
+    }
+} */

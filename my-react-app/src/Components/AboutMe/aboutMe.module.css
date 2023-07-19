@@ -35,9 +35,9 @@
     gap: 3px;
 }
 
-.conteinerIcons {
+/* .conteinerIcons {
     position: relative;
-}
+} */
 
 /* .icons {
     position: relative;
@@ -45,7 +45,7 @@
 
 .icon1 {
     position: absolute;
-    top: 82px;
+    top: 25%;
     font-size: 40px;
     animation: icon1A 5s infinite linear;
     width: 50px;
@@ -55,8 +55,9 @@
 
 .icon2 {
      position: absolute;
-     top: 160px;
-     right: 7px;
+     top: 50%;
+     /* right: 2%; */
+     left: 80%;
      font-size: 10px;
      width: 50px;
      height: 50px;
@@ -66,8 +67,8 @@
 
 .icon3 {
      position: absolute;
-     top: 90px;
-     right: 15px;
+     top: 30%;
+     left: 78%;
      font-size: 8px;
      width: 50px;
      height: 50px;
@@ -78,8 +79,8 @@
 
 .icon4 {
      position: absolute;
-     top: 220px;
-     right: 20px;
+     top: 70%;
+     left: 76%;
      font-size: 10px;
      width: 50px;
      height: 50px;
@@ -90,8 +91,8 @@
 
 .icon5 {
     position: absolute;
-     top: 270px;
-     right: 55px;
+     top: 90%;
+     left: 67%;
      font-size: 10px;
      width: 50px;
      height: 50px;
@@ -101,8 +102,8 @@
 
 .icon6 {
     position: absolute;
-     top: 300px;
-     right: 105px;
+     top: 98%;
+     left: 50%;
      font-size: 10px;
      width: 50px;
      height: 50px;
@@ -113,8 +114,8 @@
 
 .icon7 {
     position: absolute;
-     top: 300px;
-     right: 170px;
+     top: 98%;
+     left: 27%;
      font-size: 10px;
      width: 50px;
      height: 50px;
@@ -124,8 +125,8 @@
 
 .icon8 {
     position: absolute;
-     top: 260px;
-     right: 215px;
+     top: 87%;
+     left: 10%;
      font-size: 10px;
      width: 50px;
      height: 50px;
@@ -136,8 +137,8 @@
 
 .icon9 {
     position: absolute;
-     top: 210px;
-     right: 250px;
+     top: 65%;
+     left: 1%;
      font-size: 10px;
      width: 50px;
      height: 50px;
@@ -147,8 +148,8 @@
 
 .icon10 {
     position: absolute;
-     top: 148px;
-     right: 250px;
+     top: 43%;
+     left: 1%;
      font-size: 10px;
      width: 50px;
      height: 50px;
@@ -159,8 +160,8 @@
 
 .icon11 {
     position: absolute;
-     top: 35px;
-     right: 215px;
+     top: 12%;
+     left: 13%;
      font-size: 10px;
      width: 50px;
      height: 50px;
@@ -171,8 +172,8 @@
 
 .icon12 {
     position: absolute;
-     top: 37px;
-     right: 50px;
+     top: 12%;
+     left: 68%;
      font-size: 10px;
      width: 50px;
      height: 50px;
@@ -182,10 +183,11 @@
 
 .image {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0%;
+    left: 0%;
     width: 80%;
     height: 100%;
+    margin: 5px;
     border-radius: 50%;
     object-fit: cover;
     z-index: 1;

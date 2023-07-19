@@ -1,54 +1,25 @@
 .conteinerDiv {
    display: flex;
    flex-direction: column;
-   max-width: 99%;
-   min-height: 100vh;
    justify-content: center;
    align-items: center;
+   max-width: 99%;
+   min-height: 99vh;
    gap: 10px;
-   flex-wrap: nowrap; 
+   flex-wrap: wrap; 
    padding: 10px;
 }
 
-.conteinerTitle {
-    position: relative;
-    max-width: 100%;
-}
-
-/* .hide {
-    display: none;
-} */
-
-.h2Title {
-    padding: 9px;
-    position: absolute;
-    font-size: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 700;
-    color: rgb(255, 255, 255);
-    backdrop-filter: blur(3px);
-    text-align: center;
-    border-radius: 30%;
-    margin: 20px;
-    width: 500px;
-    min-height: 20vh;
-    text-align: center;
-    animation: moveTitle 10s forwards;
-    box-shadow: 0px 3px 24px 0px rgba(23, 247, 255, 0.75);
-}
-
 .conteinerDivImg1 {
-  border: 2px solid white;
-  display: flex;
-  justify-content: center;
-  align-items: center;  
-  max-width: 60%;
-  height: 50vh;
-  gap: 5px;
-  box-shadow: 0px 3px 24px 0px rgba(0, 238, 255, 0.75);
+    display: flex;
+    justify-content: start;
+    align-items: center; 
+    max-width: 60%;
+    min-width: 20%;
+    min-height: 50%;
+    gap: 10px;
+    box-shadow: 0px 3px 24px 0px rgba(0, 238, 255, 0.75);
+    border: 2px solid white;
 }
 
 .conteinerDivImg1:hover {
@@ -56,15 +27,19 @@
 }
 
 .img1 {
-   width: 99%;
-   height: 50vh; 
+   max-width: 65%;
+   min-width: 65%;
+   min-height: 100%; 
 }
 
 .projectOne {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-    gap: 2px;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 45%;
+    max-height: 30%;
 }
 
 .h2P1 {
@@ -72,20 +47,16 @@
    font-weight: 500;
    color: rgb(255, 255, 255);
    text-align: center; 
-}
-
-.projectOne2 {
-    position: relative;
+   min-height: 100%;
 }
 
 .h3P1 {
-   position: absolute;
-   top: 70px;
-   right: 10px;
+   top: 50%;
+   right: 5%;
+   margin: 2px;
    font-size: 30px;
    font-weight: 600;
    color: aqua;
-   text-align: center;
    text-decoration: none; 
 }
 
@@ -96,12 +67,12 @@
 .conteinerDivImg2 {
     border: 2px solid white;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    max-width: 40%;
     max-width: 60%;
-    height: 50vh;
-    gap: 2px;
+    min-width: 20%;
+    min-height: 50%;
+    gap: 3px;
     box-shadow: 0px 3px 24px 0px rgba(0, 238, 255, 0.75);
 }
 
@@ -110,15 +81,20 @@
 }
 
 .img2 {
-    width: 50%;
-    height: 50vh;
+    min-width: 65%;
+    max-width: 65%;
+    min-height: 99%;
 }
 
 .projectTwo {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-    gap: 5px;
+    flex-wrap: wrap;
+    max-width: 35%;
+    max-height: 20%;
+    gap: 10px;
+    margin: 1px;
 }
 
 .h2P2 {
@@ -128,14 +104,9 @@
     color: rgb(255, 255, 255);
 }
 
-.projectTwo2 {
-    position: relative;
-}
-
 .h3P2 {
-   position: absolute;
-   top: 80px;
-   right: 10px;
+   top: 50%;
+   right: 5%;
    font-size: 30px;
    font-weight: 600;
    color: aqua;
@@ -147,31 +118,3 @@
     color: rgb(255, 196, 0);
 }
 
-@keyframes moveTitle {
-    0% {
-        right: 300px;
-        top: 150px;
-        backdrop-filter: blur(3px);
-        background-color: rgb(0, 11, 11);
-      }
-      50% {
-        right: -340px;
-        top: 150px;
-        backdrop-filter: blur(3px);
-      }
-      90% {
-        right: -500px;
-        top: 150px;
-        backdrop-filter: blur(-5px);
-        box-shadow: 40px 40px 40px 10px rgb(255, 253, 253);
-      }
-      100% {
-        /* overflow: hidden; */
-        box-shadow: 50px 50px 50px 20px rgba(255, 255, 255, 0.75);
-        right: -400px;
-        font-size: 65px;
-        color: rgba(255, 255, 255, 0.808);
-        z-index: -1;
-        backdrop-filter: blur(-4px);
-      }
-}
