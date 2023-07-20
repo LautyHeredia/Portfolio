@@ -7,7 +7,8 @@ export default function AboutMe () {
     return (
         <div className={styles.conteinerAbout}>
           <div className={styles.conteinerRow}>
-            <div className={styles.conteinerImage}>
+            <di
+            v className={styles.conteinerImage}>
                 <img src={image} alt='MeImage' className={styles.image}/>
                 <div className={styles.conteinerIcons}>
                     <span className={styles.icons}><SiMongodb className={styles.icon1}/></span>
@@ -23,7 +24,7 @@ export default function AboutMe () {
                     <span className={styles.icons}><SiCss3 className={styles.icon11}/></span>
                     <span className={styles.icons}><SiHtml5 className={styles.icon12}/></span>
                 </div>
-            </div>
+            </di>
             <div className={styles.conteinerP}>
                 <p className={styles.p}>Hi, my name is Lautaro Heredia. 🫡</p>
                 <p className={styles.p}>I&apos;am studing Engeneer of Computation. 📒</p>

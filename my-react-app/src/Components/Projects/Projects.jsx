@@ -12,22 +12,6 @@ export default function Projects () {
 //   };
     return (
         <div className={styles.conteinerDiv}>
-            {/* <CSSTransition
-                in={showBox}
-                timeout={2000}
-                classNames={{
-                  enter: styles.boxEnter,
-                  enterActive: styles.boxEnterActive,
-                  exit: styles.boxExit,
-                  exitActive: styles.boxExitActive,
-                }}
-                onExited={() => setShowBox(true)}
-                unmountOnExit
-            >
-                <div id='box' className={styles.conteinerTitle} onAnimationEnd={handleAnimationEnd}>
-                   <h2 className={styles.h2Title}>My personal projects</h2>
-                </div>
-            </CSSTransition> */}
              <div className={styles.conteinerDivImg1}>
                 <img src={image1} alt='Image1' className={styles.img1}/>
                 <div className={styles.projectOne}>
