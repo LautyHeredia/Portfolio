@@ -31,8 +31,8 @@ export default function AboutMe () {
                 <p className={styles.p}>I&apos;am graduated in Henry with Full Stack Developer.</p>
                 <p className={styles.p}>I&apos;am living in Argentina and I have 20 years old.</p>
                 <p className={styles.p}>I&apos;am oriented in the Back-End, but I don&apos;t have a problem with Full Stack</p>
-                <p className={styles.p}>My love in this life is programming and design web apps. 💻</p>
-                <p className={styles.p}>My hobbies in the days is programming in times off, and play Volleyball 2hs sometimes.</p>
+                <p className={styles.p}>My love in this life is programming, develop design web apps. 💻</p>
+                <p className={styles.p}>My hobbies in the days is programming in times off and play Volleyball 2hs sometimes.</p>
             </div>
             <div>
            </div>

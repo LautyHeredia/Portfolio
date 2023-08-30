@@ -13,7 +13,7 @@
 
 .icon {
     position: absolute;
-    left: 27.4%;
+    left: 23.6%;
     top: 38.5%;
     font-size: 50px;
     animation: iconsAnimation1 2.4s ease-in-out;
@@ -126,12 +126,12 @@
 @keyframes iconsAnimation1 {
     0% {
         top: 30%;
-        left: 39%;
+        left: 29%;
         z-index: -1;
     }    
     100%{
         top: 38.5%;
-        left: 27.5%;
+        left: 23.7%;
     }
 }
 

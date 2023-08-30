@@ -15,7 +15,7 @@ export default function Projects () {
              <div className={styles.conteinerDivImg1}>
                 <img src={image1} alt='Image1' className={styles.img1}/>
                 <div className={styles.projectOne}>
-                    <h2 className={styles.h2P1}>In this project, I have created an e-commerce that looks for information of the cards in an Api, shows the information of these and lets them add them to favorites .</h2>
+                    <h2 className={styles.h2P1}>In this project, I have created a e-commerce that looks for information of the cards in an Api, shows the information of these and lets them add them to favorites .</h2>
                  {/* <div className={styles.projectOne2}> */}
                    <a href='https://rick-and-morty-lauty.netlify.app/' className={styles.h3P1}>Go</a>
                  {/* </div> */}

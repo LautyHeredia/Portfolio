@@ -18,7 +18,7 @@
     flex-wrap: wrap;
     max-width: 60%;
     min-width: 20%;
-    height: 50%;
+    height: 70vh;
     gap: 10px;
     box-shadow: 0px 3px 24px 0px rgba(0, 238, 255, 0.75);
     border: 2px solid white;
@@ -74,7 +74,7 @@
     flex-wrap: wrap;
     max-width: 60%;
     min-width: 20%;
-    min-height: 70%;
+    height: 70vh;
     gap: 3px;
     box-shadow: 0px 3px 24px 0px rgba(0, 238, 255, 0.75);
 }
@@ -85,7 +85,7 @@
 
 .img2 {
     width: 100%;
-    min-height: 99%;
+    height: 40%;
 }
 
 .projectTwo {
